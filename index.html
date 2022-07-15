@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alibaba.com</title>
+
+    <!-- Fontawsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Favicon Icon -->
+    <link rel="shortcut icon" href="images/alibaba_logo_icon_134594.ico" type="image/x-icon">
+
+    <!-- Bootstrap Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+
+    <!-- External Sheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Nabar Start -->
+    <div class="main shadow-sm">
+        <nav class="navbar navbar-expand-lg bg-white position-sticky top-0 z-ind">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="images/logo.png" alt="" width="200" class="mt-2"></a>
+                <button class="navbar-toggler ms-auto me-3" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <form class="container-fluid">
+                    <div class="input-group radius1 radius2 cus-brd cus-width ms-2 mt-2">
+                        <span class="input-group-text radius1 custom1 bg-white text-black" id="basic-addon1">
+                            <div class="dropdown">
+                                <button class="border-0 dropdown-toggle custom1 bg-white text-black fs-6" type="button"
+                                    id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Products
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                    <li><button class="dropdown-item custom-col" type="button">Products</button></li>
+                                    <li><button class="dropdown-item custom-col" type="button">Suppliers</button></li>
+                                </ul>
+                            </div>
+                        </span>
+                        <input type="text" class="form-control" placeholder="What are you looking for..."
+                            aria-label="Username" aria-describedby="basic-addon1">
+                        <span class="input-group-text radius2 custom2 cus-hover" id="basic-addon1">
+                            <i class="fa-solid fa-camera position-relative top-0 end-50 order"></i>
+                            <button class="border-0 custom2 text-white fs-6" type="submit">
+                                <i class="fa-solid fa-magnifying-glass me-2 fs-6"></i>
+                                Search</button>
+                        </span>
+                    </div>
+                </form>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item ms-3 mt-2">
+                            <a class="nav-link ms-2 me-4 mb-0 mt-1 w-100 text-center d-flex align-items-center"
+                                aria-current="page" href="#"><img src="images/user.png" alt="" width="30px"
+                                    class="me-2">Sign In <br> Join Free</a>
+                        </li>
+                        <li class="nav-item ms-2 mt-2">
+                            <a class="nav-link ms-3 color-orange" href="#"><img src="images/message.png" alt=""
+                                    width="30px" class="me-2">Messages</a>
+                        </li>
+                        <li class="nav-item ms-2 mt-2">
+                            <a class="nav-link ms-3 color-orange" href="#"><img src="images/cargo.png" alt=""
+                                    width="30px" class="me-1">
+                                Orders</a>
+                        </li>
+                        <li class="nav-item ms-4 mt-2">
+                            <a class="nav-link color-orange" href="#"><img src="images/trolley.png" alt="" width="30px"
+                                    class="me-1">
+                                Cart</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Nav 2 -->
+        <hr />
+        <nav class="navbar navbar-expand-lg bg-white shadow-sm z-inde">
+            <div class="container-fluid">
+                <button class="navbar-toggler ms-auto me-3" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-lg-0">
+                        <li class="nav-item dropdown color-orange">
+                            <a class="nav-link dropdown-toggle color-orange" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false"><img src="images/list.png" alt=""
+                                    width="15px" class="me-1 pb-2 mt-1 color-orange" />
+                                Categories
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item color-orange custom-col" href="#">Machinery / Vehicles &
+                                        Accessories</a>
+                                </li>
+                                <li><a class="dropdown-item color-orange custom-col" href="#">Cunsumer Electronics /
+                                        Home
+                                        Appliencies</a></li>
+                                <li><a class="dropdown-item color-orange custom-col" href="#">Home & Garden /
+                                        Furniture</a>
+                                </li>
+                                <li><a class="dropdown-item color-orange custom-col" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <p class="me-4 text-black-50 fw-light fs-4">|</p>
+                        <li class="nav-item">
+                            <a class="nav-link color-orange" aria-current="page" href="#">Ready To Ship</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link color-orange" href="#">Personal Protective E...</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link color-orange" href="#">Trade Shows</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle color-orange" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Buyer Central
+                            </a>
+                            <ul class="dropdown-menu color-orange" aria-labelledby="navbarDropdown">
+                                <div class="d-flex">
+                                    <div>
+                                        <li class="p-2"><a class="dropdown-item custom-col" href="#">Blog</a></li>
+                                        <li class="p-2"><a class="dropdown-item custom-col" href="#">Trade Assurance</a>
+                                        </li>
+                                        <li class="p-2"><a class="dropdown-item custom-col" href="#">Letter Of
+                                                Credit</a>
+                                        </li>
+                                    </div>
+                                    <div class="cus cus-1">
+                                        <li class="list-unstyled p-2"><a
+                                                class="dropdown-item custom-col-1 text-black-50"
+                                                href="#"><small>Sourcing Solutions</small></a></li>
+                                        <li class="list-unstyled p-2"><a class="dropdown-item custom-col-1"
+                                                href="#">Submit
+                                                RFQ</a></li>
+                                        <li class="list-unstyled p-2"><a class="dropdown-item custom-col-1"
+                                                href="#">Supplier By Regions</a>
+                                        </li>
+                                    </div>
+                                </div>
+                            </ul>
+
+                        <li class="nav-item dropdown color-orange">
+                            <a class="nav-link dropdown-toggle color-orange" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Sell on Alibaba
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item color-orange custom-col" href="#">For Global Seller</a>
+                                </li>
+                                <li><a class="dropdown-item color-orange custom-col" href="#">For Chines Seller</a></li>
+                                <li><a class="dropdown-item color-orange custom-col" href="#">Partner Program</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown color-orange">
+                            <a class="nav-link dropdown-toggle color-orange" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Help
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item color-orange custom-col" href="#">For Buyers</a>
+                                </li>
+                                <li><a class="dropdown-item color-orange custom-col" href="#">For Suppliers</a></li>
+                                <li><a class="dropdown-item color-orange custom-col" href="#">Submit a Dispute</a>
+                                </li>
+                                <li><a class="dropdown-item color-orange custom-col" href="#">Report IPR
+                                        Infringement</a>
+                                </li>
+                                <li><a class="dropdown-item color-orange custom-col" href="#">Report Abuse</a>
+                                </li>
+                            </ul>
+                        </li>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Nabar End -->
+
+    <!-- Main Sections -->
+    <div class="bg-custom-color">
+        <!-- Section 1 Start -->
+        <div class="section">
+            <div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card bg-white text-black mt-5 rounded-0 pb-4">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <h6 class="text-uppercase ps-1 ms-3 mt-4">my markets <p class=" text-black-50">
+                                                ____________________________________________</p>
+                                        </h6>
+                                        <div class="ms-3 p-2">
+                                            <div class="mt-2 cus-shadow-hover">
+                                                <img src="images/1.png" alt="" width="30px">
+                                                <div class="btn-group dropend">
+                                                    <button type="button" class="border-0 bg-white dropdown-toggle"
+                                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                                        <a href="#"
+                                                            class="ms-2 text-decoration-none text-black color-orange">Custumer
+                                                            Electornics</a> <span class="cus-mar-1"></span>
+                                                    </button>
+                                                    <ul class="dropdown-menu ">
+                                                        <!-- Dropdown menu links -->
+                                                        <li><a href="#">Assocaries</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                            <div class="mt-2 cus-shadow-hover">
+                                                <img src="images/2.png" alt="" width="30px">
+                                                <div class="btn-group dropend">
+                                                    <button type="button" class="border-0 bg-white dropdown-toggle"
+                                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                                        <a href="#"
+                                                            class="ms-2 text-decoration-none text-black color-orange">Apparel</a>
+                                                        <span class="cus-mar-2"></span>
+                                                    </button>
+                                                    <ul class="dropdown-menu">
+                                                        <!-- Dropdown menu links -->
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                            <div class="mt-2 cus-shadow-hover">
+                                                <img src="images/3.png" alt="" width="30px">
+                                                <div class="btn-group dropend">
+                                                    <button type="button" class="border-0 bg-white dropdown-toggle"
+                                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                                        <a href="#"
+                                                            class="ms-2 text-decoration-none text-black color-orange">Vehicle
+                                                            Parts & Accessories</a><span class="cus-mar-3"></span>
+                                                    </button>
+                                                    <ul class="dropdown-menu">
+                                                        <!-- Dropdown menu links -->
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                            <div class="mt-2 cus-shadow-hover">
+                                                <img src="images/4.png" alt="" width="30px">
+                                                <div class="btn-group dropend">
+                                                    <button type="button" class="border-0 bg-white dropdown-toggle"
+                                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                                        <a href="#"
+                                                            class="ms-2 text-decoration-none text-black color-orange">Entertainment</a><span
+                                                            class="cus-mar-4"></span>
+                                                    </button>
+                                                    <ul class="dropdown-menu">
+                                                        <!-- Dropdown menu links -->
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                            <div class="mt-2 cus-shadow-hover">
+                                                <img src="images/5.png" alt="" width="30px">
+                                                <div class="btn-group dropend">
+                                                    <button type="button" class="border-0 bg-white dropdown-toggle"
+                                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                                        <a href="#"
+                                                            class="ms-2 text-decoration-none text-black color-orange">Machinery</a><span
+                                                            class="cus-mar-5"></span>
+                                                    </button>
+                                                    <ul class="dropdown-menu">
+                                                        <!-- Dropdown menu links -->
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                            <div class="mt-2 cus-shadow-hover">
+                                                <img src="images/6.png" alt="" width="30px">
+                                                <div class="btn-group dropend">
+                                                    <button type="button" class="border-0 bg-white dropdown-toggle"
+                                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                                        <a href="#"
+                                                            class="ms-2 text-decoration-none text-black color-orange">Home
+                                                            &
+                                                            Garden</a><span class="cus-mar-6"></span>
+                                                    </button>
+                                                    <ul class="dropdown-menu">
+                                                        <!-- Dropdown menu links -->
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                            <div class="mt-2 cus-shadow-hover">
+                                                <img src="images/7.png" alt="" width="30px">
+                                                <div class="btn-group dropend">
+                                                    <button type="button" class="border-0 bg-white dropdown-toggle"
+                                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                                        <a href="#"
+                                                            class="ms-2 text-decoration-none text-black color-orange">Beauty
+                                                            &
+                                                            Personal Care</a><span class="cus-mar-7"></span>
+                                                    </button>
+                                                    <ul class="dropdown-menu">
+                                                        <!-- Dropdown menu links -->
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                            <div class="mt-2 cus-shadow-hover">
+                                                <img src="images/8.png" alt="" width="30px">
+                                                <div class="btn-group dropend">
+                                                    <button type="button" class="border-0 bg-white dropdown-toggle"
+                                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                                        <a href="#"
+                                                            class="ms-2 text-decoration-none text-black color-orange">All
+                                                            Categories</a><span class="cus-mar-8"></span>
+                                                    </button>
+                                                    <ul class="dropdown-menu">
+                                                        <!-- Dropdown menu links -->
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <!-- Carousel -->
+                                    <div class="col-md-8">
+                                        <div class="mt-4 mb-4 ms-3 pe-auto me-3">
+                                            <div id="carouselExampleIndicators" class="carousel slide"
+                                                data-bs-ride="true">
+                                                <div class="carousel-indicators">
+                                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                        data-bs-slide-to="0" class="active custom2" aria-current="true"
+                                                        aria-label="Slide 1"></button>
+                                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                        data-bs-slide-to="1" aria-label="Slide 2"
+                                                        class="custom2"></button>
+                                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                        data-bs-slide-to="2" aria-label="Slide 3"
+                                                        class="custom2"></button>
+                                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                        data-bs-slide-to="3" aria-label="Slide 4"
+                                                        class="custom2"></button>
+                                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                        data-bs-slide-to="4" aria-label="Slide 5"
+                                                        class="custom2"></button>
+                                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                        data-bs-slide-to="5" aria-label="Slide 6"
+                                                        class="custom2"></button>
+                                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                        data-bs-slide-to="6" aria-label="Slide 7"
+                                                        class="custom2"></button>
+                                                </div>
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                                                        <img src="https://s.alicdn.com/@img/imgextra/i1/O1CN01MndQjN1QYY8bWIXVQ_!!6000000001988-0-tps-990-400.jpg"
+                                                            class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img src="https://s.alicdn.com/@img/imgextra/i3/O1CN01CcrZeI1hkmAVDkJ2Q_!!6000000004316-2-tps-990-400.png"
+                                                            class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img src="https://s.alicdn.com/@img/imgextra/i1/O1CN014cMxB01Rlf5krAxBy_!!6000000002152-2-tps-990-400.png"
+                                                            class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img src="https://s.alicdn.com/@img/imgextra/i2/O1CN01rYC4hI1lJzSxuJUm1_!!6000000004799-2-tps-990-400.png"
+                                                            class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img src="https://s.alicdn.com/@img/imgextra/i4/O1CN01M2hzc51R2Jsd8EAVP_!!6000000002053-2-tps-990-400.png"
+                                                            class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img src="https://s.alicdn.com/@img/imgextra/i2/O1CN01o0j3WA1mACcvVWQih_!!6000000004913-2-tps-990-400.png"
+                                                            class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img src="https://s.alicdn.com/@img/imgextra/i2/O1CN011ITETz1nW16pEfFVF_!!6000000005096-0-tps-990-400.jpg"
+                                                            class="d-block w-100" alt="...">
+                                                    </div>
+                                                </div>
+                                                <button class="carousel-control-prev" type="button"
+                                                    data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                </button>
+                                                <button class="carousel-control-next" type="button"
+                                                    data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="container-fluid">
+                                            <div class="row h-50 m-0 p-0">
+                                                <div class="col-md-3 bg-custom rounded-1 me-1 p-3 h-50 mt-2">
+                                                    <h5 class="fs-6 text-white">Mid-Year Sale</h5>
+                                                    <button
+                                                        class="border-0 bg-white f-cus-btn fw-bold rounded-4 px-2 mt-4">Source
+                                                        now</button>
+                                                </div>
+                                                <div class="col-md-3 bg-custom-1 rounded-2 me-1 p-3 h-50 mt-2">
+                                                    <div class="col-sm-12">
+                                                        <h6>Hot Sellers</h6>
+                                                        <button
+                                                            class="border-0 bg-white f-cus-btn-1 rounded-4 px-2 mt-4">Source
+                                                            now</button>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 bg-custom-1 rounded-2 me-1 p-3 h-50 mt-2">
+                                                    <h6>New trends release</h6>
+                                                    <button
+                                                        class="border-0 bg-white f-cus-btn-1 rounded-4 px-2 mt-4">Source
+                                                        now</button>
+                                                </div>
+                                                <div class="col-md-3 bg-custom-1 rounded-2 me-1 p-3  mt-2">
+                                                    <h6>10% off or more</h6>
+                                                    <button
+                                                        class="border-0 bg-white f-cus-btn-1 rounded-4 px-2 mt-4">Source
+                                                        now</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Section end -->
+
+        <!-- Section 2 Start -->
+        <div class="section2">
+            <div class="mt-4">
+                <div class="container my-0 py-0">
+                    <div class="row m-0 p-0">
+                        <div class="col-md-4 bg-white p-4 rounded mt-2">
+                            <div>
+                                <h6><img src="images/1.1.png" alt="" width="30px" class="me-2 img-fluid"> New Arrivals
+                                </h6>
+                                <div class="mt-4 d-flex ms-4 flex-wrap">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <img src="images/1_1.png" alt="" width="240vw"
+                                                class="cus-hover-img img-fluid">
+                                            <p class="text-center fw-bold cus-font-s mt-1">$ 3.64 <br /><a href="#"
+                                                    class="text-decoration-none text-black-50 mt-1">Tranding Now</a></p>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <img src="images/2_2.png" alt="" width="240vw"
+                                                class="cus-hover-img img-fluid">
+                                            <p class="text-center fw-bold cus-font-s mt-1">$ 8.24 <br /><a href="#"
+                                                    class="text-decoration-none text-black-50 mt-1">Tranding Now</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 bg-white p-4 rounded mt-2">
+                            <div>
+                                <h6><img src="images/2.2.png" alt="" width="30px" class="me-2"> Top Rank Products</h6>
+                                <div class="mt-4 d-flex ms-4 flex-wrap">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <img src="images/3_3.png" alt="" width="240vw"
+                                                class="cus-hover-img img-fluid">
+                                            <p class="text-center fw-bold cus-font-s mt-1">$ 3.64 <br /><a href="#"
+                                                    class="text-decoration-none text-black-50 mt-1">Tranding Now</a></p>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <img src="images/4_4.png" alt="" width="240vw"
+                                                class="cus-hover-img img-fluid">
+                                            <p class="text-center fw-bold cus-font-s mt-1">$ 8.24 <br /><a href="#"
+                                                    class="text-decoration-none text-black-50 mt-1">Tranding Now</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 bg-white p-4 rounded mt-2">
+                            <div>
+                                <h6><img src="images/3.3.png" alt="" width="30px" class="me-2"> Personal Protective
+                                    Equipments</h6>
+                                <div class="mt-4 d-flex ms-4 flex-wrap">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <img src="images/5_5.png" alt="" width="240vw"
+                                                class="cus-hover-img img-fluid">
+                                            <p class="text-center fw-bold cus-font-s mt-1">$ 3.64 <br /><a href="#"
+                                                    class="text-decoration-none text-black-50 mt-1">Tranding Now</a></p>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <img src="images/6_6.png" alt="" width="240vw"
+                                                class="cus-hover-img img-fluid">
+                                            <p class="text-center fw-bold cus-font-s mt-1">$ 8.24 <br /><a href="#"
+                                                    class="text-decoration-none text-black-50 mt-1">Tranding Now</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-4">
+                        <div class="row m-0 p-0">
+                            <div class="col-md-4 bg-white p-4 rounded mt-2">
+                                <div>
+                                    <h6><img src="images/4.4.jpg" alt="" width="30px" class="me-2"> Dropshipping</h6>
+                                    <div class="mt-4 d-flex ms-4 flex-wrap">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <img src="images/7_7.png" alt="" width="240vw"
+                                                    class="cus-hover-img img-fluid">
+                                                <p class="text-center fw-bold cus-font-s mt-1">$ 3.64 <br /><a href="#"
+                                                        class="text-decoration-none text-black-50 mt-1">Tranding Now</a>
+                                                </p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img src="images/8_8.png" alt="" width="240vw"
+                                                    class="cus-hover-img img-fluid">
+                                                <p class="text-center fw-bold cus-font-s mt-1">$ 8.24 <br /><a href="#"
+                                                        class="text-decoration-none text-black-50 mt-1">Tranding Now</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 bg-white p-4 rounded mt-2">
+                                <div>
+                                    <h6><img src="images/5.5.png" alt="" width="30px" class="me-2"> Global Original
+                                        Sources
+                                    </h6>
+                                    <div class="mt-4 d-flex ms-4 flex-wrap">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <img src="images/9_9.png" alt="" width="240vw"
+                                                    class="cus-hover-img img-fluid">
+                                                <p class="text-center fw-bold cus-font-s mt-1">$ 3.64 <br /><a href="#"
+                                                        class="text-decoration-none text-black-50 mt-1">Tranding Now</a>
+                                                </p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img src="images/10_10.png" alt="" width="240vw"
+                                                    class="cus-hover-img img-fluid">
+                                                <p class="text-center fw-bold cus-font-s mt-1">$ 8.24 <br /><a href="#"
+                                                        class="text-decoration-none text-black-50 mt-1">Tranding Now</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 bg-white p-4 rounded mt-2">
+                                <div>
+                                    <h6><img src="images/6.6.jpg" alt="" width="30px" class="me-2"> True View</h6>
+                                    <div class="mt-4 d-flex ms-4 flex-wrap">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <img src="images/11_11.png" alt="" width="240vw"
+                                                    class="cus-hover-img img-fluid">
+                                                <p class="text-center fw-bold cus-font-s mt-1">$ 3.64 <br /><a href="#"
+                                                        class="text-decoration-none text-black-50 mt-1">Tranding Now</a>
+                                                </p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img src="images/12_12.png" alt="" width="240vw"
+                                                    class="cus-hover-img img-fluid">
+                                                <p class="text-center fw-bold cus-font-s mt-1">$ 8.24 <br /><a href="#"
+                                                        class="text-decoration-none text-black-50 mt-1">Tranding Now</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Section 2 End -->
+
+        <!-- Section 3 Start -->
+        <div class="section3">
+            <div class="container">
+                <div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="bg-white rounded-3 mt-5 p-3">
+                                <div>
+                                    <h2>Customized products</h2>
+                                    <div class="d-flex flex-wrap">
+                                        <p class="col-sm-12 col-md-6 text-black-50 fw-bold">Partner with one of 60,000
+                                            experienced
+                                            manufacturers with design &
+                                            production...</p>
+                                        <img src="images/img1.png" alt="" class="img-fluid mx-auto" width="200px">
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="row">
+                                        <div class="col-md-6 text-center">
+                                            <div class="p-3 bg-gray rounded-2 h-100 mt-1">
+                                                <h6>source from factories</h6>
+
+                                                <img src="https://s.alicdn.com/@sc04/kf/H4ac09d96dda840398685df5fe96c634cq.jpg_100x100xz.jpg"
+                                                    alt="" class="img-fluid cus-hover-imgs img-thumbnail" width="68px">
+
+                                                <img src="https://s.alicdn.com/@sc04/kf/Hf8c34e85abd3461bace995970e1f22db7.jpg_100x100xz.jpg"
+                                                    alt="" class="img-fluid cus-hover-imgs img-thumbnail" width="68px">
+
+
+                                                <img src="https://s.alicdn.com/@sc04/kf/Hc35df560376342c88b7628fba5c655f62.jpg_100x100xz.jpg"
+                                                    alt="" class="img-fluid cus-hover-imgs img-thumbnail" width="68px">
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-6 text-center">
+                                            <div class="p-3 bg-gray rounded-2 h-100 mt-2">
+                                                <h6>Top-ranking suppliers</h6>
+                                                <img src="https://s.alicdn.com/@sc04/kf/HTB1xOimVQzoK1RjSZFl761i4VXaz.png_100x100xz.jpg"
+                                                    alt="" class="img-fluid cus-hover-imgs img-thumbnail" width="68px">
+                                                <img src="https://s.alicdn.com/@sc04/kf/H22dab3162a274581bc1a8c652911ca8fF.jpg_100x100xz.jpg"
+                                                    alt="" class="img-fluid cus-hover-imgs img-thumbnail" width="68px">
+                                                <img src="https://s.alicdn.com/@sc04/kf/Ua2775630c9544fbcb93185a60524c076J.jpg_100x100xz.jpg"
+                                                    alt="" class="img-fluid cus-hover-imgs img-thumbnail" width="68px">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="bg-white rounded-3 mt-5 p-3">
+                                <div>
+                                    <h2>Ready-to-ship products</h2>
+                                    <div class="d-flex flex-wrap">
+                                        <p class="col-sm-12 col-md-6 text-black-50 fw-bold">Source from 15 million
+                                            products that are ready to ship, and leave the
+                                            facility within 15...</p>
+                                        <img src="images/img2.png" alt="" class="img-fluid mx-auto" width="200px">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 text-center">
+                                        <div class="p-3 bg-gray rounded-2 h-100 mt-1">
+                                            <h6>fast dispatch</h6>
+                                            <img src="https://s.alicdn.com/@sc04/kf/H6eadc734ad9c4b41b1c51869cf21eceej.jpg_100x100xz.jpg"
+                                                alt="" class="img-fluid cus-hover-imgs img-thumbnail" width="68px">
+                                            <img src="https://s.alicdn.com/@sc04/kf/H403f5c283566447ea478e80818a48bb7d.jpg_100x100xz.jpg
+                                        alt="" class=" img-fluid cus-hover-imgs img-thumbnail" width="68px">
+                                            <img src="https://s.alicdn.com/@sc04/kf/H6489560d0e8a44bc9aa3946db7eae699A.jpg_100x100xz.jpg"
+                                                alt="" class="img-fluid cus-hover-imgs img-thumbnail" width="68px">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 text-center mt-2">
+                                        <div class="p-3 bg-gray rounded-2 h-100 mt-1">
+                                            <h6>weekly deals</h6>
+                                            <img src="https://s.alicdn.com/@sc04/kf/H0dc64cd0958444eba979457341306f78d.jpg_100x100xz.jpg"
+                                                alt="" class="img-fluid cus-hover-imgs img-thumbnail" width="68px">
+                                            <img src="https://s.alicdn.com/@sc04/kf/H831778ba7ee04e08b11c8d8a9cc533ebT.jpg_100x100xz.jpg"
+                                                alt="" class="img-fluid cus-hover-imgs img-thumbnail" width="68px">
+                                            <img src="https://s.alicdn.com/@sc04/kf/H1a85970856d84904b8766ab6bcf1fc150.jpg_100x100xz.jpg"
+                                                alt="" class="img-fluid cus-hover-imgs img-thumbnail" width="68px">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Section 3 End -->
+
+        <!-- Section4 Start -->
+        <div class="section4">
+            <div class="container">
+                <div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="mt-5">
+                                <div>
+                                    <a href="#" class="text-decoration-none text-black text-uppercase">
+                                        <h2 class="">Consumer Electronics</h2>
+                                    </a>
+                                </div>
+                                <div class="bg-white">
+                                    <div>
+                                        <div class="row ms-0">
+                                            <div class="bg-img col-md-3 cus-border p-5">
+                                                <h5>Selected Novelty Products</h5>
+                                                <button class="cust-marg-btn border-0 rounded-5 p-2 px-4">Source
+                                                    Now</button>
+                                            </div>
+
+                                            <div class="col-md-3 cus-border">
+                                                <h5>Premium OEM Factories</h5>
+                                                <p>Cusomization service avaliable</p>
+                                                <img src="https://s.alicdn.com/@sc04/kf/H7c4055e36eb94af49faf8be801098654V.jpg_220x220.jpg"
+                                                    alt="" class="img-fluid ms-auto d-block" width="100px">
+                                                <hr>
+                                                <h5>Premium OEM Factories</h5>
+                                                <p>Cusomization service avaliable</p>
+                                                <img src="https://s.alicdn.com/@sc04/kf/H944aa0f25a8b435387dfd43cf58cac45T.jpg_220x220.jpg"
+                                                    alt="" class="img-fluid ms-auto d-block" width="100px">
+                                            </div>
+                                            <div class="col-md-3 cus-border">
+                                                <h5>Premium OEM Factories</h5>
+                                                <p>Cusomization service avaliable</p>
+                                                <img src="https://s.alicdn.com/@sc04/kf/Hb79a93a92ffa404ea8b269e37ab3550dT.jpg_220x220.jpg"
+                                                    alt="" width="100px" class="img-fluid ms-auto d-block">
+                                                <hr>
+                                                <h5>Premium OEM Factories</h5>
+                                                <p>Cusomization service avaliable</p>
+                                                <img src="https://s.alicdn.com/@sc04/kf/Ha79175c6c4a747d29e72feeb791eb1f0g.jpg_220x220.jpg"
+                                                    alt="" class="img-fluid ms-auto d-block" width="100px">
+                                            </div>
+                                            <div class="col-md-3 cus-border">
+                                                <h5>Premium OEM Factories</h5>
+                                                <p>Cusomization service avaliable</p>
+                                                <img src="https://s.alicdn.com/@sc04/kf/Hca88e6cbf1d74a37a6764ebd17585b97H.jpg_220x220.jpg"
+                                                    alt="" class="img-fluid ms-auto d-block" width="100px">
+                                                <hr>
+                                                <h5>Premium OEM Factories</h5>
+                                                <p>Cusomization service avaliable</p>
+                                                <img src="https://s.alicdn.com/@sc04/kf/H461626a672ec475a911f52aca51264210.jpg_220x220.jpg"
+                                                    alt="" class="img-fluid ms-auto d-block" width="100px">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Section4 end -->
+
+        <!-- Section5 Start -->
+
+        <!-- Section5 end -->
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
